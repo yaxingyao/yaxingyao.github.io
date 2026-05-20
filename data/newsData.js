@@ -3,6 +3,26 @@
 
 const newsItems = [
   {
+    date: '05/26',
+    content: 'HAIPS Workshop accepted at COLM 2026.'
+  },
+  {
+    date: '05/26',
+    content: 'Workshop on Fraudulent Data accepted at CSCW 2026.'
+  },
+  {
+    date: '04/26',
+    content: 'New paper accepted at TAISP.'
+  },
+  {
+    date: '01/26',
+    content: 'New paper accepted at DIS 2026.'
+  },
+  {
+    date: '01/26',
+    content: 'Three papers accepted at CHI 2026.'
+  },
+  {
     date: '07/25',
     content: 'Received the NSF CAREER Award!'
   },
