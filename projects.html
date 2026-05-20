@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Yaxing Yao</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="grants.html">Grants</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="misc.html">Misc.</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-narrow">
+        <h1 class="mb-8">Projects</h1>
+        
+        <div class="mb-12">
+          <h2 class="mb-6">Research Interests</h2>
+          <div class="interest-tags">
+            <span class="tag">Human-Computer Interaction</span>
+            <span class="tag">Privacy/Security</span>
+            <span class="tag">Accessibility</span>
+            <span class="tag">Embodied AI Agents</span>
+            <span class="tag">Online Privacy</span>
+            <span class="tag">Privacy Literacy</span>
+          </div>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            My research lies in the intersection of Human-Computer Interaction (HCI),
+            Privacy/Security, and Accessibility. I aim to enhance people's privacy literacy
+            and empower them with more control of their privacy in our increasingly complicated
+            socio-technical environment.
+          </p>
+          <p class="text-gray-700 leading-relaxed">
+            My work covers various technological contexts, including AI, embodied AI agents,
+            and online privacy, and several user groups, including at-risk populations such as
+            people with disabilities, children, and teenagers.
+          </p>
+        </div>
+
+        <div class="mb-12">
+          <h2 class="mb-6">Current Projects</h2>
+          <div class="space-y-6">
+            <div class="card">
+              <h3 class="mb-2">Privacy Educational Interfaces for Children</h3>
+              <p class="text-gray-600 leading-relaxed mb-3">
+                Co-designing privacy educational interfaces for children through long-term
+                family, school, and community partnerships.
+              </p>
+              <p class="text-gray-500">Supported by NSF CAREER Award.</p>
+            </div>
+            
+            <div class="card">
+              <h3 class="mb-2">AI-Powered Privacy Awareness and Control</h3>
+              <p class="text-gray-600 leading-relaxed mb-3">
+                Building AI-powered systems that enhance users' awareness of data practices
+                and give them more meaningful control over their privacy.
+              </p>
+            </div>
+            
+            <div class="card">
+              <h3 class="mb-2">Privacy Notices in Emerging Technologies</h3>
+              <p class="text-gray-600 leading-relaxed mb-3">
+                Designing privacy notices for contexts such as VR and AI, and evaluating
+                them using methods including eye-tracking technologies.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 class="mb-2">Dark Patterns</h3>
+              <p class="text-gray-600 leading-relaxed mb-3">
+                Empowering users to recognize, reason about, and combat manipulative interface patterns.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3 class="mb-2">Accessible and Safe Social VR</h3>
+              <p class="text-gray-600 leading-relaxed mb-3">
+                Supporting flexible and safe self-representations for people with disabilities in social VR,
+                and studying ways to ensure teenagers' safety in immersive social environments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        © <span id="current-year"></span> All rights reserved.
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

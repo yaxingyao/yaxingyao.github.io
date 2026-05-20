@@ -1,0 +1,58 @@
+========================================
+FILES TO UPLOAD TO YOUR FTP SERVER
+========================================
+
+Upload ALL of these files to your web root directory:
+
+HTML PAGES (7 files):
+  ✓ index.html
+  ✓ projects.html  
+  ✓ publications.html
+  ✓ grants.html
+  ✓ teaching.html
+  ✓ news.html
+  ✓ misc.html
+
+CSS:
+  ✓ styles.css
+
+DATA FOLDER (create this folder on server):
+  ✓ data/publicationsData.js
+  ✓ data/newsData.js
+
+FILES FOLDER (create this folder on server):
+  ✓ files/profile.jpeg
+  ✓ files/YaxingYao_CV.pdf
+  ✓ files/YaxingYao_CVofFailure.pdf
+
+SCRIPTS FOLDER (optional, only if you want to use the BibTeX converter):
+  ✓ scripts/bbl-to-js.js
+
+DOCUMENTATION (do NOT upload these, they're for reference only):
+  ⊗ README.md
+  ⊗ QUICK_START.md
+  ⊗ FILES_TO_UPLOAD.txt
+
+========================================
+TOTAL: 7 HTML files + 1 CSS + 2 JS data files + 3 files assets = 13 files minimum
+========================================
+
+FOLDER STRUCTURE ON SERVER:
+your-domain.com/
+├── index.html
+├── projects.html
+├── publications.html
+├── grants.html
+├── teaching.html
+├── news.html
+├── misc.html
+├── styles.css
+├── files/
+│   ├── profile.jpeg
+│   ├── YaxingYao_CV.pdf
+│   └── YaxingYao_CVofFailure.pdf
+└── data/
+    ├── publicationsData.js
+    └── newsData.js
+
+After uploading, visit: http://your-domain.com
